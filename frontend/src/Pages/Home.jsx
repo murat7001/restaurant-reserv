@@ -6,6 +6,7 @@ import Menu from '../components/Menu.jsx'
 import WhoAreWe from '../components/WhoAreWe.jsx'
 import Team from '../components/Team.jsx'
 import Reservation from '../components/Reservation.jsx'
+import Footer from '../components/Footer.jsx'
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <WhoAreWe></WhoAreWe>
       <Team></Team>
       <Reservation></Reservation>
+      <Footer></Footer>
     </>
   )
 }
